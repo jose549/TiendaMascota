@@ -1,0 +1,86 @@
+/*
+	Barra Materialize
+*/
+
+#barra{
+	font-family: Verdana, sans-serif;
+	background-color: green;
+}
+
+#opcionesBarra:hover{
+	background-color: red
+}
+
+#titulo{
+	text-indent: 10px;
+}
+
+/*
+	Contenido
+*/
+
+#fechaResponsiva:before{
+	content: "Fecha de Nacimiento";
+}
+@media (max-width:700px){
+	#fechaResponsiva:before{
+		content: "Nacimiento";
+	}
+}
+#contraseniaResponsiva:before{
+	content: "Confirmar Contraseña";
+}
+@media (max-width: 700px){
+	#contraseniaResponsiva:before{
+		content: "Confirmar";
+	}
+}
+
+#caja{
+	border: 1px;
+	border-style: solid;
+	border-color: gray;
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#caja p{
+	text-indent: 10px;
+}
+
+#caja h2{
+	text-indent: 10px;
+}
+
+#caja img{
+	float: right;
+}
+
+.page-footer{
+	background-color: orange;
+}
+
+#terminos{
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+#iconosInfo{
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-right: 5px;
+}
+
+#socialIcon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+}
+
+#copyright{
+	text-align: center;
+}
